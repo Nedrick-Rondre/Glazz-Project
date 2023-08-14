@@ -38,6 +38,7 @@ main {
 .glazz {
   background: white;
   min-height: 80vh;
+  padding: 40px;
   width: 60%;
   background: linear-gradient(
     to right bottom,
@@ -78,7 +79,8 @@ main {
 
 .dashboard {
   flex: 1;
-  display: flex;
+  display: none;
+/*   display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
@@ -92,6 +94,7 @@ main {
 
 .signup {
   flex: 2;
+  text-align: center;
 }
 
 .signup input {
